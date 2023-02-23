@@ -1,0 +1,40 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.main {
+    width: 100%;
+    color: #111;
+    display: flex;
+}
+
+
+img {
+    display: block;
+    width: 80%;
+    height: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #595959;
+    
+}
+
+.text {
+    text-align: left;
+    line-height: 22px;
+}
+
+p {
+    margin: 8px 0;
+}
+
+button {
+    width: 85px;
+    padding: 4px 20px;
+    color: #595959;
+    border: 2px solid #595959;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
