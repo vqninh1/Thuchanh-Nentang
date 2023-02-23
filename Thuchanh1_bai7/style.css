@@ -1,0 +1,57 @@
+body {
+    margin: 50px;
+    background-color: #f5f5f5;
+}
+
+.nav {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+
+.nav__list {
+    
+    padding: 10px;
+    background-color: blue;
+    border-left: 0.5px solid #fff;
+
+}
+
+.nav__list_first {
+
+}
+
+.nav__list-red {
+    background-color: red;
+    position: relative;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav__dropdown {
+    padding: 0;
+    position: absolute;
+    display: flex;
+    list-style: none;
+    width: 311px;
+    background-color: red;
+    left: -126px;
+    top: 38px;
+}
+
+.nav__items {
+    padding: 10px;
+}
+
+.nav__items:first-child {
+    border: none;
+}
+
+.nav__items_link {
+    text-decoration: none;
+    color: #fff;
+}

@@ -1,0 +1,29 @@
+body {
+    margin: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+h1 {
+    font-weight: bold;
+    color: green;
+    background-color: yellow;
+}
+
+h2 {
+    
+}
+
+.verse-1 {
+    color: blue;
+    
+}
+
+.verse-2 {
+    color: red;
+    text-align: left;
+}
+
+.verse-3 {
+    text-align: right;
+}
