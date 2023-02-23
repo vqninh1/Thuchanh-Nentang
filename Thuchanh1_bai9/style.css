@@ -6,21 +6,17 @@ body {
 .nav {
     padding: 0;
     margin: 0;
-    display: flex;
+    display: block;
     list-style: none;
+    width: 150px;
 }
 
 .nav__list {
-    
     padding: 10px;
     background-color: blue;
-    border-left: 0.5px solid #fff;
-
+    border-bottom: 1px solid #fff;
 }
 
-.nav__list_first {
-
-}
 
 .nav__list-red {
     background-color: red;
@@ -35,12 +31,12 @@ body {
 .nav__dropdown {
     padding: 0;
     position: absolute;
-    display: flex;
+    display: block;
     list-style: none;
-    width: 311px;
+    width: 150px;
     background-color: red;
-    left: -127px;
-    top: 38px;
+    top: 0;
+    left: 100%;
 }
 
 .nav__items {
