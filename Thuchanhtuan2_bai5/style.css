@@ -1,0 +1,198 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    text-align: center;
+    background-color: #fff;
+}
+
+.main {
+    display: flex;
+    padding-left: 450px;
+    padding-right: 450px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    
+}
+
+.content {
+    width: 49%;
+    text-align: center;
+    background-color: #fafafa;
+    
+}
+
+.content__left {
+    padding-top: 20px;
+    padding-bottom: 38px;
+}
+
+.content__img {
+    position: relative;
+}
+
+.content__active {
+    position: absolute;
+    top: 267px;
+    left: calc(50% - 303px);
+    display: flex;
+    width: 240px;
+    height: 428px;
+    overflow: hidden;
+}
+
+.content__active_slide {
+    display: flex;
+    width: 100%;
+    animation: slide 8s ease infinite;
+}
+
+@keyframes slide {
+    from {
+        margin-left: 0;
+    }
+    75% {
+        margin-left: -100%;
+    }
+    to {
+        margin-left: -200%;
+    }
+}
+
+.content__active_img {
+    width: 100%;
+    height: 100%;
+}
+.content__right {
+    padding-top: 70px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.content--first {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.container {
+    display: block;
+}
+
+h1 {
+    padding-top: 40px;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 18px;
+}
+
+form {
+    margin-top: 40px;
+}
+
+label {
+    width: 80%;
+}
+
+input {
+    width: 80%;
+    padding: 10px 8px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+    
+}
+
+button {
+    width: 84%;
+    padding: 10px 8px;
+    color: #fff;
+    background-color: #89cff0;
+    border: none;
+    border-radius: 8px !important;
+}
+
+.lineup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ccc;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 10px;
+}
+
+.line {
+    width: 40%;
+    height: 2px;
+    background-color: #ccc;
+    margin: 22px 0;
+}
+
+.lineup p {
+    margin: auto;
+}
+
+.social {
+    color: #385185;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 18px;
+}
+
+.social__icon {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.social a {
+    margin-left: 10px;
+    font-weight: 500;
+    color: #385185;
+}
+
+.forgot {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.forgot__pass {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.forgot a {
+    color: #385185;
+}
+
+.content--second {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-top: 12px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.content--second p {
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.content--third {
+}
+
+.content__social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.content--third img {
+    width: 48%;
+    height: 46px;
+    border-radius: 8px;
+}
+
